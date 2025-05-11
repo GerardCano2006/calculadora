@@ -24,4 +24,8 @@ public class Finestra extends JFrame{
         setLayout(null); //Permetre l'ús de setBounds
         this.add(button1); //Afegim el botó al la finestra (JFrame)
     }
+
+    public static void main(String[] args) {
+        new Finestra().setVisible(true);        //Fem visible la finestra
+    }
 }
