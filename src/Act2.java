@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Act2 extends JFrame {
-
     public Act2() {
         setTitle("Act2");
         setSize(400, 300);

@@ -6,14 +6,15 @@ import java.awt.event.ActionListener;
 public class Act3 {
     public static void main(String[] args) {
         JFrame finestra = new JFrame("Llenguatges");
-        finestra.setSize(400, 300);
+        finestra.setSize(400, 300);     //Grandària finestra
         finestra.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         finestra.setLayout(null);
 
-        JLabel label = new JLabel("Llenguajes:");
+        JLabel label = new JLabel("Llenguajes:");       //Títol
         label.setBounds(20, 10, 100, 20);
         finestra.add(label);
 
+        //Botons de tipus "JRadioButton"
         JRadioButton java = new JRadioButton("Java");
         JRadioButton php = new JRadioButton("Php");
         JRadioButton cpp = new JRadioButton("C++");
@@ -31,7 +32,7 @@ public class Act3 {
         finestra.add(php);
         finestra.add(cpp);
 
-        JButton validar = new JButton("Validar");
+        JButton validar = new JButton("Validar");       //Botó "Validar"
         validar.setBounds(20, 120, 100, 25);
         finestra.add(validar);
 
