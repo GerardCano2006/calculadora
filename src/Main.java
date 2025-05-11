@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Finestra f1 = new Finestra();
+
+        f1.setVisible(true);        //Fem visible la finestra
     }
 }
