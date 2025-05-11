@@ -18,10 +18,10 @@ public class Finestra extends JFrame{
 
     private void colocar_boto() {
         JButton button1 = new JButton();
-        button1.setText("Click Aquí");      //Text del botó
+        button1.setText("Click Aquí");      //Text botó
         button1.setBounds(100, 100, 100, 40);       //Tamany botó
-        button1.setEnabled(true); //Que estigui actiu
+        button1.setEnabled(true);
         setLayout(null); //Permetre l'ús de setBounds
-        this.add(button1); //Aegir el botó al JFrame
+        this.add(button1); //Afegim el botó al la finestra (JFrame)
     }
 }
