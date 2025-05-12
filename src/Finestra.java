@@ -9,7 +9,7 @@ public class Finestra extends JFrame{
         setSize(500, 500);      //Tamany de la finestra
         setDefaultCloseOperation(EXIT_ON_CLOSE);        //Es tanca quan sortim
         setTitle("Calculadora");        //Afegim títol
-        setLocationRelativeTo(null);        //Apareix la finestra al centre
+        setLocation(500,200);     //Apareix la finestra al centre
         setResizable(false);        //No es pot canviar el tamay de la finestra
         this.getContentPane().setBackground(Color.blue);        //Fons de color blau
 
