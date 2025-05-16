@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 public class Finestra extends JFrame{
     public Finestra() {
         setSize(500, 500);      //Tamany de la finestra
-        setDefaultCloseOperation(EXIT_ON_CLOSE);        //Es tanca quan sortim
+        setDefaultCloseOperation(EXIT_ON_CLOSE);        //Es tanca quan   sortim
         setTitle("Calculadora");        //Afegim títol
         setLocation(500,200);     //Apareix la finestra al centre
         setResizable(false);        //No es pot canviar el tamay de la finestra
@@ -21,8 +21,8 @@ public class Finestra extends JFrame{
         button1.setText("Click Aquí");      //Text botó
         button1.setBounds(100, 100, 100, 40);       //Tamany botó
         button1.setEnabled(true);
-        setLayout(null); //Permetre l'ús de setBounds
-        this.add(button1); //Afegim el botó al la finestra (JFrame)
+        setLayout(null);        //Permetre l'ús de setBounds
+        this.add(button1);      //Afegim el botó al la finestra (JFrame)
     }
 
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Act3 {
+public class Act3 extends JFrame {
     public static void main(String[] args) {
         JFrame finestra = new JFrame("Llenguatges");
         finestra.setSize(400, 300);     //Grandària finestra
