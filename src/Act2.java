@@ -24,11 +24,10 @@ public class Act2 extends JFrame {
         add(boto1);
 
         //2n botó amb imatge
-        ImageIcon icona = new ImageIcon("boton.png"); //Només el nom de la imatge
-        JButton boto2 = new JButton(icona);
-        boto2.setBounds(130, 120, icona.getIconWidth(), icona.getIconHeight());
-        boto2.setBorder(null);                 //Sense contorn
-        boto2.setContentAreaFilled(false);     //Sense fons
+        JButton boto2 = new JButton();
+        boto2.setBounds(130, 60, 120, 40);
+        ImageIcon icona = new ImageIcon("C:\\Users\\Usuario\\IdeaProjects\\calculadora\\src\\boton.png");       //He intentat agregar-lo com a icona
+        boto2.setIcon(new ImageIcon(icona.getImage().getScaledInstance(boto2.getWidth(), boto2.getHeight(), Image.SCALE_SMOOTH)));
 
         add(boto2);
     }
